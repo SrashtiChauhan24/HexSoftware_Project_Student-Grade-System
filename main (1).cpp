@@ -27,11 +27,13 @@ int main() {
   else if (f>=70) {
     cout<<"Your Grade is C"<<endl; 
   }
+  else if(f>=60) {
+    cout<<"Your Grade is D"<<endl;
   else if(f>=50) {
-    cout<<"Your Grade is D"<<endl; 
+    cout<<"Your Grade is E"<<endl; 
   }
   else if(f>=40) {
-    cout<<"Your Grade is E"<<endl;
+    cout<<"Your Grade is F"<<endl;
   }
   else if(f<=30) {
     cout<<"You are fail , Study hard next time"<<endl;
